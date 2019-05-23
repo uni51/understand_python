@@ -1,3 +1,2 @@
-words = ['python', 'django', 'tkinter']
-one_words = [char for word in words for char in word]
-print(one_words)
+even_numbers = [x for x in range(1,11) if x % 2==0]
+print(even_numbers)

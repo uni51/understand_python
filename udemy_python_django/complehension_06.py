@@ -1,3 +1,4 @@
-# 二次元配列を作成して、九九の一覧を表示する内包表記
-table = [[x*y for x in range(1,10)] for y in range(1, 10)]
-print(table)
+# 辞書型のデータで、キーとvalueを入れ替える内包表記
+score = { 'math': 80, 'english': 20 }
+new_score = {value:key for key,value in score.items()}
+print(new_score)
